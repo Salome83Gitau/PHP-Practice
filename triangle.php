@@ -42,6 +42,12 @@ do {
     echo $m. " ";
     $m+=5;
 }while($m<=50);
+do {
+    echo $m. " ";
+    $m+=5;
+}while($m<=50);
+
+
 
 
 ?>
