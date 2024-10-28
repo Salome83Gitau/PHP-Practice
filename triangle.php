@@ -43,6 +43,12 @@ do {
     $m+=5;
 }while($m<=50);
 
+echo "<br>";
+$k=0;
+do{
+    echo $k. " ";
+    $k+=2;
+}while($k<=10);
 
 
 
