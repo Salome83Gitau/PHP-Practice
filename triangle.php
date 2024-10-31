@@ -49,5 +49,11 @@ do{
     echo $k. " ";
     $k+=2;
 }while($k<=10);
+echo "<br>";
+$k=0;
+do{
+    echo $k. " ";
+    $k+=2;
+}while($k<=10);
 
 ?>
