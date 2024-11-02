@@ -19,6 +19,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo $numbers."<br>";
     }
 }
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    for($numbers=$_POST['loop1']; $numbers<=$_POST['loop2']; $numbers++){
+        echo $numbers."<br>";
+    }
+}
 
 
 ?>
