@@ -15,7 +15,7 @@
 // }
 echo "The following numbers are divisible by 25". "<br>";
 $sum =0;
-for($i=1; $i<=1000; $i++){
+for($i=1; $i<=900; $i++){
     if($i%25==0){
         echo $i ."<br>";
        $sum+=$i;
