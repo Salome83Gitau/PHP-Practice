@@ -7,12 +7,12 @@
 </head>
 <body>
 <?php
-    //echo "The following numbers are divisible by 10 <br>";
-// for ($i=790; $i>=590;$i--){
-//     if ($i%10==0){
-//         echo $i . "<br>";
-//     }
-// }
+    echo "The following numbers are divisible by 10 <br>";
+for ($i=790; $i>=590;$i--){
+    if ($i%10==0){
+        echo $i . "<br>";
+    }
+}
 echo "The following numbers are divisible by 25". "<br>";
 $sum =0;
 for($i=1; $i<=900; $i++){
