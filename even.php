@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+<p>This is a loop tutorial</p>
 <?php
     echo "The following numbers are divisible by 10 <br>";
 for ($i=790; $i>=590;$i--){
