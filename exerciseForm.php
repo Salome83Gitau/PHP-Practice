@@ -10,6 +10,7 @@
         <label for="userInput">The operation will either be S (split) or C (combine)
             M indicates method, C indicates class, and V indicates variable. <br> Enter the problem in this format C;V;mobile phone include() for methods </label> <br>
         <input type="text" name="input">
+        
     </form>
 </body>
 </html>
