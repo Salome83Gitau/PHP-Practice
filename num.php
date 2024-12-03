@@ -14,20 +14,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $sum=($number1+$number2);
     $mod=($number1%$number2);
     
-    echo "The first number is ".$number1."<br>";
-    echo "The second number is ".$number2."<br>";
-    echo "The average of the numbers is ".$avg."<br>";
-    echo "The sum of the numbers is ".$sum."<br>";
-    echo "The modulus of the numbers is ".$mod."<br>";
+    // echo "The first number is ".$number1."<br>";
+    // echo "The second number is ".$number2."<br>";
+    // echo "The average of the numbers is ".$avg."<br>";
+    // echo "The sum of the numbers is ".$sum."<br>";
+    // echo "The modulus of the numbers is ".$mod."<br>";
     }
 
 ?>
 
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
         <label for="num1">Number 1</label>
-        <input type="text" name="num1" id="num1"> <br> <br>
+        <input type="text" name="num1" id="num1" value="<?php echo $number1;?>"> <br> <br>
         <label for="num2">Number 2</label>
-        <input type="text" name="num2" id="num2"> <br> <br>
+        <input type="text" name="num2" id="num2" value="<?php echo $number2;?>"> <br> <br>
+        <label for="Sum">Sum</label>
+        <input type="text" name="sum" id="sum" value="<?php echo $sum;?>"> <br> <br>
         <input type="submit" value="calculator">
 
     </form>
